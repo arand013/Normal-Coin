@@ -6,7 +6,7 @@ contract Token {
     uint public totalSupply = 777000000000000 * 10 ** 18;
     string public name = "Normal";
     string public symbol = "NOM";
-    uint public decimals = 7;
+    uint public decimals = 6;
     
     event Transfer(address indexed from, address indexed to, uint value);
     event Approval(address indexed owner, address indexed spender, uint value);
